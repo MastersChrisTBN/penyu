@@ -1,2 +1,5 @@
-# scan-proxy-v1
-Tools Scan Proxy Untuk Paket Ilmupedia Dan Ruangguru Menjadi Kuota Reguler
+# SCAN PROXY by PAK STEVEN
+Gunakan dengan Bijak..
+
+# Telegram Grup
+@TermuxUserHack
