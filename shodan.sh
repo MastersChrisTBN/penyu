@@ -6,17 +6,18 @@ h="\033[32;1m"
 clear
 function banner(){
 		echo -e "\t${p}_________________________"
-		echo -e "\t${h}  TOOLS SCANNING PROXY by PAK STEVEN"
-		echo -e "\t${p}   Author${m}: ${p}PAK STEVEN"
-		echo -e "\t${p}    MastersChrisTBN"
+		echo -e "\t${h}    TOOLS BY PAK STEVEN"
+		echo -e "\t${p} Author${m}: ${p}PAK STEVEN"
+		echo -e "\t${p}      MastersChrisTBN"
 		echo -e "\t${p}Telegram${m}: ${p}@TermuxUserHack"
 		echo -e "\t${p}_________________________"
-	   	echo -e "\t${p} Shodan.io | Version:2.0\n\n"
+	   	echo -e "\t${p} Scan Nim | Version:2.0\n\n"
+                echo -e "\t${p}   "Mikrotik HTTP Proxy"
 }
 banner
 
 function sec(){
-		printf "\t\b${p} [${h}•${p}] Cheking Proxy${m}:    ${p}"
+		printf "\t\b${p} [${h}•${p}] Prosess...${m}:    ${p}"
 			for w in {3..0};do
 			get=$(printf "\b${w}")
 		printf "\b\b\b((${h}${get}${p})"
@@ -24,7 +25,7 @@ function sec(){
 		done
 }
 
-printf "\t${p}[${h}•${p}] MASUKAN PROXY UNIVERSITAS APA SAJA..${m}: ${p}"
+printf "\t${p}[${h}•${p}]MASUKAN PROXY${m}: ${p}"
 read proxy;
 
 	if \
@@ -141,7 +142,7 @@ read proxy;
 	echo -e "\n$isp"
 	
 	else 
-		echo -e "\t${p}[${m}!${p}] Proxy Wrong ${m}!!"
+		echo -e "\t${p}[${m}!${p}] Proxy Tidak Valid ${m}!!"
 		exit 1
 	fi
 
