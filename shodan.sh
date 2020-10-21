@@ -12,7 +12,7 @@ function banner(){
 		echo -e "\t${p}Telegram${m}: ${p}@TermuxUserHack"
 		echo -e "\t${p}_________________________"
 	   	echo -e "\t${p} Scan Nim | Version:2.0\n\n"
-                echo -e "\t${p}   "Mikrotik HTTP Proxy"
+                echo -e "\t${p}    Mikrotik HTTP Proxy"
 }
 banner
 
