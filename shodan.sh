@@ -6,13 +6,14 @@ h="\033[32;1m"
 clear
 function banner(){
 		echo -e "\t${p}_________________________"
-		echo -e "\t${h}    TOOLS BY PAK STEVEN"
+		echo -e "\t${h} TOOLS BY PAK STEVEN"
 		echo -e "\t${p} Author${m}: ${p}PAK STEVEN"
 		echo -e "\t${p}      MastersChrisTBN"
 		echo -e "\t${p}Telegram${m}: ${p}@TermuxUserHack"
 		echo -e "\t${p}_________________________"
 	   	echo -e "\t${p} Scan Nim | Version:2.0\n\n"
                 echo -e "\t${p}    Mikrotik HTTP Proxy"
+      echo -e "JAGA KERAHASIAN TOOL INI"          
 }
 banner
 
@@ -25,7 +26,7 @@ function sec(){
 		done
 }
 
-printf "\t${p}[${h}•${p}]MASUKAN PROXY${m}: ${p}"
+printf "\t${p}[${h}•${p}]Proxy${m}: ${p}"
 read proxy;
 
 	if \
